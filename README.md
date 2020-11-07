@@ -1,3 +1,6 @@
+This is a convolutional neural network that classifies images of German road signs into 43 categories with accurracy of approximately 96%
+Usage: python traffic.py data_directory [model.h5]
+data_directory is either gtsrb or gtsrb-small dataset, both contain thousands of image of each category.
 I tried different layers of convolution, pooling and dense.
 I noticed that by increasing the number of convolutional and pooling layers accurracy increased.
 By adding a dropout results improved in a somewhat linear fashion as opposed to 
